@@ -1,5 +1,11 @@
 SUMMARY
-================================================================================
+e===============================================================================
+users
+- UserID::Gender::Age::Occupation::Zip-code
+ratings
+- UserID::MovieID::Rating::Timestamp
+movies
+- MovieID::Title::Genres
 
 These files contain 1,000,209 anonymous ratings of approximately 3,900 movies 
 made by 6,040 MovieLens users who joined MovieLens in 2000.
@@ -91,7 +97,7 @@ information are included in this data set.
 - Gender is denoted by a "M" for male and "F" for female
 - Age is chosen from the following ranges:
 
-	*  1:  "Under 18"
+	*  1:  "Under 17"
 	* 18:  "18-24"
 	* 25:  "25-34"
 	* 35:  "35-44"
